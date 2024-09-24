@@ -157,6 +157,11 @@ nav a:visited {
   margin-bottom: 10%;
 }
 
+.header1Area {
+  background-color: #561823;
+  padding: 5% 0 2% 0;
+}
+
 .header2Area {
   background-color: dimgrey;
 }
