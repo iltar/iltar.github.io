@@ -41,15 +41,15 @@ a:link {
   color: lightseagreen;
 }
 
-a:visited {
-  text-decoration: none;
-  color: dimgrey;
-}
-
 a:hover {
   text-decoration: none;
   color: lightseagreen;
   text-shadow: 2px 2px 2px lightseagreen;
+}
+
+a:visited {
+  text-decoration: none;
+  color: dimgrey;
 }
 
 b {
@@ -73,11 +73,12 @@ ul {
 }
 
 body {
-    background-color: #454545;
-    margin: 0px;
+  background-color: #454545;
+  margin: 0px;
 }
 
 header {
+  background-color: #561823;
   width: 80%;
   margin: auto;
   display: flex;
@@ -121,12 +122,13 @@ nav a:visited {
 }
 
 .frontPageHeader {
+  position: relative;
   width: 40%;
   margin-right: auto;
   background-color: #561823;
 }
 
-.frontPageHeader h1 {
+Header h1 {
   position: relative;
   top: 70%;
 }
@@ -137,7 +139,7 @@ nav a:visited {
   background-color: dimgrey;
 }
 
-.description p {
+.description div {
   padding: 15% 15% 15% 25%;
 }
 
@@ -163,7 +165,7 @@ nav a:visited {
 }
 
 .header2Area {
-  background-color: dimgrey;
+  background-color: #303030;
 }
 
 .header3Area {
@@ -172,11 +174,15 @@ nav a:visited {
 
 .textArea {
   background-color: #303030;
-  width: 80%;
-  margin: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 1200px) {
+  header, nav, article {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) or (orientation: portrait) {
   nav, header, article, .frontPageHeader, .description, .textAreaLeft, .textAreaRight, .textArea {
     width: 100%;
     margin-left: 0;
@@ -186,5 +192,9 @@ nav a:visited {
   .textAreaLeft, .textAreaRight {
     margin-top: 40%;
     margin-bottom: 30%;
+  }
+
+  .description div {
+    padding: 15%;
   }
 }
