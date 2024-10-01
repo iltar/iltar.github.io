@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   line-height: 10%;
   color: gainsboro;
+  text-shadow: 2px 2px #303030;
 }
 
 h2 {
@@ -41,15 +42,15 @@ a:link {
   color: lightseagreen;
 }
 
-a:visited {
-  text-decoration: none;
-  color: dimgrey;
-}
-
 a:hover {
   text-decoration: none;
   color: lightseagreen;
   text-shadow: 2px 2px 2px lightseagreen;
+}
+
+a:visited {
+  text-decoration: none;
+  color: dimgrey;
 }
 
 b {
@@ -73,16 +74,17 @@ ul {
 }
 
 body {
-    background-color: #454545;
-    margin: 0px;
+  background-color: #454545;
+  margin: 0px;
 }
 
 header {
+  background-color: #561823;
   width: 80%;
   margin: auto;
   display: flex;
   flex-flow: row wrap;
-  box-shadow: 1px 1px 5px #303030;
+  box-shadow: 1px 1px 2px #303030;
 }
 
 article {
@@ -98,7 +100,7 @@ nav {
   background-color: #303030;
   width: 80%;
   margin: auto;
-  box-shadow: 0 2px 5px black;
+  box-shadow: 1px 2px 2px black;
 }
 
 nav a {
@@ -129,8 +131,8 @@ nav a:visited {
 }
 
 .frontPageHeader h1 {
-  position: relative;
-  top: 70%;
+  padding-top: 50%;
+  padding-bottom: 10%;
 }
 
 .description {
@@ -139,7 +141,7 @@ nav a:visited {
   background-color: dimgrey;
 }
 
-.description p {
+.description div {
   padding: 15% 15% 15% 25%;
 }
 
@@ -178,20 +180,33 @@ nav a:visited {
 
 .textArea {
   background-color: #303030;
-  width: 80%;
-  margin: auto;
-  box-shadow: 1px 1px 5px #303030;
+  box-shadow: 1px 1px 5px black;
 }
 
-@media only screen and (max-width: 600px) {
-  nav, header, article, .frontPageHeader, .description, .textAreaLeft, .textAreaRight, .textArea {
+@media (min-width: 1200px) {
+  header, nav, article {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) or (orientation: portrait) {
+  nav, header, article, .frontPageHeader, .description, .textAreaLeft, .textAreaRight, .textArea, .profilePic {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .frontPageHeader h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   
   .textAreaLeft, .textAreaRight {
     margin-top: 40%;
     margin-bottom: 30%;
+  }
+
+  .description div {
+    padding: 10% 15% 10% 15%;
   }
 }
