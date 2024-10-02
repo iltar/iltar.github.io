@@ -85,15 +85,20 @@ header {
   display: flex;
   flex-flow: row wrap;
   box-shadow: 1px 1px 2px #303030;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 article {
   width: 80%;
   margin: auto;
+  margin-top: 0;
 }
 
 nav {
   position: sticky;
+  z-index: 1000;
   top: 0;
   display: flex;
   flex-direction: row;
@@ -124,6 +129,12 @@ nav a:visited {
   width: 10%;
 }
 
+.profilePic {
+  width: 25%;
+  position: absolute;
+  left: 27.5%;
+}
+
 .frontPageHeader {
   width: 40%;
   margin-right: auto;
@@ -131,8 +142,7 @@ nav a:visited {
 }
 
 .frontPageHeader h1 {
-  padding-top: 50%;
-  padding-bottom: 10%;
+  padding-right: 30%;
 }
 
 .description {
@@ -183,7 +193,7 @@ nav a:visited {
   box-shadow: 1px 1px 5px black;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   header, nav, article {
     width: 60%;
   }
@@ -194,16 +204,22 @@ nav a:visited {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    position: static;
   }
 
   .frontPageHeader h1 {
     padding-top: 5%;
     padding-bottom: 5%;
   }
+
+  .skills {
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
   
   .textAreaLeft, .textAreaRight {
-    margin-top: 40%;
-    margin-bottom: 30%;
+    margin-top: 20%;
+    margin-bottom: 20%;
   }
 
   .description div {
