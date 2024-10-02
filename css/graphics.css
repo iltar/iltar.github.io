@@ -1,0 +1,14 @@
+.blankSquare {
+    height: 10px;
+    width: 10px;
+    border: 2px solid darkslategrey;
+    margin-left: auto;
+}
+
+.filledSquare {
+    height: 10px;
+    width: 10px;
+    border: 2px solid darkslategrey;
+    background-color: lightseagreen;
+    margin-left: auto;
+}

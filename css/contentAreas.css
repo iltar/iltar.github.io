@@ -72,6 +72,19 @@ nav {
 .description div {
     padding: 15% 15% 15% 25%;
   }
+
+.skillTable {
+  width: 90%;
+  padding: 2% 5% 10% 5%;
+}
+
+.skillTitle {
+  width: 50%;
+}
+
+.skillElement {
+  width: 10%;
+}
   
 .textAreaLeft {
     background-color: #303030;
