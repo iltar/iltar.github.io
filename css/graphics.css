@@ -63,3 +63,10 @@
     border-bottom: 2px solid dimgrey;
     border-left: 3px solid dimgrey;
 }
+
+@media (max-width: 600px) or (orientation: portrait) {
+    .timeline {
+        width: 95%;
+        padding: 10% 0;
+    }
+}
