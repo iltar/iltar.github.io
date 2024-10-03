@@ -15,7 +15,7 @@ h2 {
   font-family: 'Space Grotesk', Tahoma, sans-serif;
   text-decoration: firebrick underline;
   font-weight: bold;
-  padding: 10px;
+  padding: 10px 10px 10px 20%; 
   color: lightseagreen;
   text-shadow: 1px 1px 1px #202020;
 }
@@ -81,6 +81,7 @@ table {
   
 td {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
     color: gainsboro;
     padding: 1%;
   }
@@ -125,6 +126,7 @@ footer p {
 @media (max-width: 600px) or (orientation: portrait) {
     h2 {
         text-align: center;
+        padding: 10px
       }
 
     .frontPageHeader h1 {

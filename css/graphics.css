@@ -12,3 +12,54 @@
     background-color: lightseagreen;
     margin-left: auto;
 }
+
+.timeline {
+    width: 80%;
+    margin: auto;
+    padding: 2% 0;
+    border-collapse: collapse;
+}
+
+.rightCell {
+    width: 30%;
+    padding: 0%;
+    text-align: left;
+}
+
+.leftCell {
+    width: 30%;
+    padding: 0%;
+    text-align: right;
+}
+
+.emptyCellRight {
+    width: 30%;
+    padding: 2% 0;
+    border-left: 3px solid dimgrey;
+}
+
+.emptyCellLeft {
+    width: 30%;
+    padding: 2% 0;
+    border-right: 3px solid dimgrey;
+}
+
+.timeCellLeft {
+    font-size: 32px;
+    width: 10%;
+    padding-left: 1%;
+    text-align: left;
+    color: lightseagreen;
+    border-bottom: 2px solid dimgrey;
+    border-right: 3px solid dimgrey;
+}
+
+.timeCellRight {
+    font-size: 32px;
+    width: 10%;
+    padding-right: 1%;
+    text-align: right;
+    color: lightseagreen;
+    border-bottom: 2px solid dimgrey;
+    border-left: 3px solid dimgrey;
+}
