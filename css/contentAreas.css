@@ -1,5 +1,7 @@
 body {
-    background-color: #454545;
+    background-image: url("bgrPic.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
   }
 
@@ -87,7 +89,7 @@ nav {
 }
   
 .textAreaLeft {
-    background-color: #303030;
+    background-color: rgba(48, 48, 48, 0.7);
     width: 40%;
     margin-right: auto;
     margin-top: 5%;
@@ -96,7 +98,7 @@ nav {
   }
   
 .textAreaRight {
-    background-color: #303030;
+    background-color: rgba(48, 48, 48, 0.7);
     width: 40%;
     margin-left: auto;
     margin-top: 5%;
@@ -120,7 +122,7 @@ nav {
   }
   
 .textArea {
-    background-color: #303030;
+    background-color: rgba(48, 48, 48, 0.7);
     padding: 3% 0 3% 0%;
     box-shadow: 1px 1px 5px #202020;
   }
