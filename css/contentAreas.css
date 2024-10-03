@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    padding: 0;
   }
 
 header {
@@ -24,6 +25,8 @@ article {
 
 footer {
     width: 100%;
+    position: fixed;
+    bottom: 0;
     background-color: #303030;
     box-shadow: 0 -1px 2px #202020;
   }
@@ -74,19 +77,6 @@ nav {
 .description div {
     padding: 15% 15% 15% 25%;
   }
-
-.skillTable {
-  width: 90%;
-  padding: 2% 5% 10% 5%;
-}
-
-.skillTitle {
-  width: 50%;
-}
-
-.skillElement {
-  width: 10%;
-}
   
 .textAreaLeft {
     background-color: rgba(48, 48, 48, 0.7);
@@ -139,6 +129,12 @@ nav {
     .naviLinks {
       padding-left: 20%;
     }
+
+    .profilePic {
+      width: 20%;
+      position: absolute;
+      left: 30%;
+    }
   }
   
 @media (max-width: 600px) or (orientation: portrait) {
@@ -178,3 +174,9 @@ nav {
       width: 20%;
     }
   }
+
+@media (max-width: 800px) {
+  .profilePic {
+    display: none;
+  }
+}
