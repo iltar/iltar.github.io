@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&family=Space+Grotesk:wght@300..700&display=swap');
 
 h1 {
-  font-size: 36;
+  font-size: 38px;
   font-family: "Protest Guerrilla", Tahoma, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-  font-size: 34;
+  font-size: 28px;
   font-family: 'Space Grotesk', Tahoma, sans-serif;
   text-decoration: firebrick underline;
   font-weight: bold;
@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-  font-size: 28;
+  font-size: 24px;
   font-family: 'Oswald', Tahoma, sans-serif;
   font-weight: bold;
   padding: 9px;
@@ -43,14 +43,12 @@ a:link {
 }
 
 a:hover {
-  text-decoration: none;
-  color: lightseagreen;
-  text-shadow: 2px 2px 2px lightseagreen;
+  text-shadow: 0px 0px 5px lightseagreen;
 }
 
 a:visited {
-    text-decoration: none;
-    color: dimgrey;
+    font-weight: normal;
+    color: lightseagreen;
   }
   
 b {
@@ -62,25 +60,50 @@ i {
     color: dimgrey;
     text-shadow: 1px 1px 1px darkslategrey;
   }
+
+table {
+    padding: 5%;
+    width: 50%;
+  }
   
+.skillTable {
+    width: 90%;
+    padding: 2% 5% 10% 5%;
+  }
+
 .skillTitle {
+    width: 50%;
+  }
+  
+.skillElement {
+    width: 10%;
+  }
+  
+td {
     font-family: Helvetica, Arial, sans-serif;
     color: gainsboro;
+    padding: 1%;
   }
 
 nav p {
     font-family: 'Space Grotesk', Tahoma, sans-serif;
+    font-size: 28px;
   }
 
 nav a {
-    font-size: 32;
+    font-size: 28px;
     font-family: 'Space Grotesk', Tahoma, sans-serif;
     color: lightseagreen;
     padding: 2%;
   }
-  
-nav a:visited {
-    color: lightseagreen;
+
+nav a:hover {
+    text-shadow: 0px 0px 12px lightseagreen;
+  }
+
+nav .current {
+    text-decoration: firebrick underline;
+    text-shadow: 1px 1px 1px #202020;
   }
 
 footer p {
@@ -92,6 +115,12 @@ footer p {
 .frontPageHeader h1 {
     padding-right: 30%;
   }
+
+@media (max-width: 800px) {
+  .frontPageHeader h1 {
+    padding: 0;
+  }
+}
 
 @media (max-width: 600px) or (orientation: portrait) {
     h2 {
