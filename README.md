@@ -1,2 +1,2 @@
 # Portfolio
-Kurssin Johdanto digitaalisiin palveluihin nettisivutehtävä
+Nettisivutehtävä kurssille Johdanto digitaalisiin palveluihin
