@@ -20,28 +20,46 @@
     border-collapse: collapse;
 }
 
-.rightCell {
-    width: 30%;
-    padding: 0%;
-    text-align: left;
+.emptyCell {
+    max-width: 35%;
+    padding: 4% 0;
 }
 
-.leftCell {
-    width: 30%;
-    padding: 0%;
+.titleCellLeft {
+    width: 15%;
     text-align: right;
+    vertical-align: bottom;
+    padding-right: 2%;
+    border-bottom: 2px solid dimgrey;
+    border-right: 2px solid dimgrey;
 }
 
-.emptyCellRight {
-    width: 30%;
-    padding: 2% 0;
+.titleCellRight {
+    width: 15%;
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 2%;
+    border-bottom: 2px solid dimgrey;
     border-left: 3px solid dimgrey;
 }
 
-.emptyCellLeft {
-    width: 30%;
-    padding: 2% 0;
-    border-right: 3px solid dimgrey;
+.titleCellRight h3, .titleCellLeft h3 {
+    line-height: 0;
+    padding: 0px;
+}
+
+.cellLeft {
+    width: 25%;
+    text-align: right;
+    padding: 0.5% 2% 1% 0;
+    border-right: 2px solid dimgrey;
+}
+
+.cellRight {
+    width: 25%;
+    text-align: left;
+    padding: 0.5% 0 1% 2%;
+    border-left: 3px solid dimgrey;
 }
 
 .timeCellLeft {
@@ -62,6 +80,18 @@
     color: lightseagreen;
     border-bottom: 2px solid dimgrey;
     border-left: 3px solid dimgrey;
+}
+
+.noBorderCellRight {
+    width: 30%;
+    padding: 0%;
+    text-align: left;
+}
+
+.noBorderCellLeft {
+    width: 30%;
+    padding: 0%;
+    text-align: right;
 }
 
 @media (max-width: 600px) or (orientation: portrait) {
