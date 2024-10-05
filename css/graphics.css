@@ -24,7 +24,7 @@
 
 .emptyCell {
     max-width: 35%;
-    padding: 4% 0;
+    padding: 3% 0;
 }
 
 .titleCellLeft {
@@ -46,7 +46,7 @@
     vertical-align: bottom;
     padding-left: 2%;
     border-bottom: 2px solid dimgrey;
-    border-left: 3px solid dimgrey;
+    border-left: 2px solid dimgrey;
 }
 
 .titleCellRight h3, .titleCellLeft h3 {
@@ -65,7 +65,7 @@
     width: 25%;
     text-align: left;
     padding: 0.5% 0 1% 2%;
-    border-left: 3px solid dimgrey;
+    border-left: 2px solid dimgrey;
 }
 
 .timeCellLeft {
@@ -75,7 +75,7 @@
     text-align: left;
     color: lightseagreen;
     border-bottom: 2px solid dimgrey;
-    border-right: 3px solid dimgrey;
+    border-right: 2px solid dimgrey;
 }
 
 .timeCellRight {
@@ -85,7 +85,7 @@
     text-align: right;
     color: lightseagreen;
     border-bottom: 2px solid dimgrey;
-    border-left: 3px solid dimgrey;
+    border-left: 2px solid dimgrey;
 }
 
 .noBorderCellRight {
