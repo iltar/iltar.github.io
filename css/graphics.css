@@ -3,7 +3,7 @@
 
 /* Mobile navigation elements */
 .navToggle:checked ~ .naviLinks {
-  display: flex;
+    transform: scale(1,1);
 }
 
 .navToggle {
@@ -166,8 +166,8 @@
   background-color: dimgrey;
 }
 
-/* Mid-size screen */
-@media (max-width: 900px) {
+/* Small-ish size screen */
+@media (max-width: 800px) {
   .icon {
     display: flex;
   }

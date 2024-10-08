@@ -49,13 +49,13 @@ nav {
 .naviLinks {
   margin-right: auto;
   padding-left: 10%;
-  width: 90%;
+  width: 85%;
 }
 
 .languagePicker {
   margin-left: auto;
   padding-right: 10%;
-  width: 10%;
+  width: 15%;
   text-align: right;
 }
 
@@ -153,8 +153,8 @@ nav {
   }
 }
 
-/* Mid-size screen */
-@media (max-width: 900px) {
+/* Small-ish size screen */
+@media (max-width: 800px) {
   .profilePic {
     visibility: hidden;
   }
@@ -165,9 +165,12 @@ nav {
     top: 100%;
     width: 100%;
     padding: 0;
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: rgba(48, 48, 48, 0.9);
+    transform: scale(1,0);
+    transform-origin: top;
+    transition: transform 300ms;
   }
 
   .languagePicker {
