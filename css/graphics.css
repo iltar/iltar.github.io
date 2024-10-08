@@ -140,6 +140,7 @@
 
 .skillTag {
   color: gainsboro;
+  font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
   padding: 1% 1.5%;
@@ -149,6 +150,7 @@
 
 .groupTag {
   color: gainsboro;
+  font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
   padding: 1% 1.5%;
@@ -158,6 +160,7 @@
 
 .teamTag {
   color: gainsboro;
+  font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
   padding: 1% 1.5%;
