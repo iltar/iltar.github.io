@@ -191,6 +191,7 @@ nav {
   .frontPageHeader,
   .description,
   .textArea,
+  .project,
   .profilePic {
     visibility: visible;
     width: 100%;
@@ -202,11 +203,6 @@ nav {
   article {
     width: 100%;
     margin: 5% auto 20% auto;
-  }
-
-  .frontPageHeader h1 {
-    padding-top: 5%;
-    padding-bottom: 5%;
   }
 
   .skills {

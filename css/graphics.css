@@ -6,7 +6,7 @@
 }
 
 .navToggle:checked ~ .naviLinks {
-  transform: scale(1,1);
+  transform: scale(1, 1);
 }
 
 .icon {
@@ -14,7 +14,6 @@
   left: 0;
   top: 0;
   margin-left: 10%;
-  margin-top: 3%;
   height: 100%;
   display: none;
 }
@@ -80,7 +79,7 @@
 
 .titleCellRight h3,
 .titleCellLeft h3 {
-  line-height: 0;
+  line-height: 1;
   padding: 0px;
 }
 
@@ -100,7 +99,7 @@
 
 .timeCellLeft {
   font-size: 32px;
-  width: 10%;
+  width: 15%;
   padding-left: 1%;
   text-align: left;
   color: lightseagreen;
@@ -110,7 +109,7 @@
 
 .timeCellRight {
   font-size: 32px;
-  width: 10%;
+  width: 15%;
   padding-right: 1%;
   text-align: right;
   color: lightseagreen;
@@ -119,13 +118,13 @@
 }
 
 .noBorderCellRight {
-  width: 30%;
+  max-width: 35%;
   padding: 0%;
   text-align: left;
 }
 
 .noBorderCellLeft {
-  width: 30%;
+  max-width: 35%;
   padding: 0%;
   text-align: right;
 }
@@ -181,11 +180,39 @@
 /* Small or vertical screen */
 @media (max-width: 600px) or (orientation: portrait) {
   .timeline {
-    width: 95%;
+    width: 100%;
     padding: 10% 0;
   }
 
   .icon {
     margin-left: 2%;
+  }
+
+  .timeCellLeft,
+  .timeCellRight,
+  .titleCellLeft h3,
+  .titleCellRight h3 {
+    font-size: 20px;
+  }
+
+  .titleCellLeft,
+  .titleCellRight {
+    font-size: 18px;
+  }
+
+  .cellLeft,
+  .cellRight,
+  .titleCellLeft,
+  .titleCellRight,
+  .titleCellLeft h3,
+  .titleCellRight h3,
+  .noBorderCellLeft,
+  .noBorderCellRight {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
   }
 }

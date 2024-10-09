@@ -81,8 +81,8 @@ table {
 }
 
 .project p {
-  line-height: 1;
-  padding: 1px 1%;
+  line-height: 1.25;
+  padding: 1px 3%;
 }
 
 td {
@@ -134,12 +134,21 @@ footer p {
 }
 
 @media (max-width: 600px) or (orientation: portrait) {
+  .frontPageHeader h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
   h2 {
     text-align: center;
     padding: 10px;
   }
 
-  .frontPageHeader h1 {
-    padding: 0;
+  h3 {
+    font-size: 22px;
+  }
+
+  .project p {
+    line-height: 1.5;
   }
 }
