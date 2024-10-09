@@ -140,6 +140,7 @@ nav {
 
   .languagePicker {
     padding-right: 20%;
+    display: none;
   }
 
   .naviLinks {
