@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&family=Space+Grotesk:wght@300..700&display=swap");
 
+:root {
+  --textColor: gainsboro;
+  --textDark: grey;
+  --shadowColor: #202020;
+  --emphasis1: firebrick;
+  --emphasis1Dark:#561823;
+  --emphasis2: lightseagreen;
+  --emphasis2Dark: darkslategrey;
+}
+
 /* Mobile navigation elements */
 .navToggle {
   display: none;
@@ -22,7 +32,7 @@
   width: 40px;
   height: 4px;
   margin: 6px;
-  background-color: lightseagreen;
+  background-color: var(--emphasis2);
   border-radius: 5px;
 }
 
@@ -30,15 +40,15 @@
 .blankSquare {
   height: 10px;
   width: 10px;
-  border: 2px solid darkslategrey;
+  border: 2px solid var(--emphasis2Dark);
   margin-left: auto;
 }
 
 .filledSquare {
   height: 10px;
   width: 10px;
-  border: 2px solid darkslategrey;
-  background-color: lightseagreen;
+  border: 2px solid var(--emphasis2Dark);
+  background-color: var(--emphasis2);
   margin-left: auto;
 }
 
@@ -62,8 +72,8 @@
   text-align: right;
   vertical-align: bottom;
   padding-right: 2%;
-  border-bottom: 2px solid dimgrey;
-  border-right: 2px solid dimgrey;
+  border-bottom: 2px solid var(--textDark);
+  border-right: 2px solid var(--textDark);
 }
 
 .titleCellRight {
@@ -73,8 +83,8 @@
   text-align: left;
   vertical-align: bottom;
   padding-left: 2%;
-  border-bottom: 2px solid dimgrey;
-  border-left: 2px solid dimgrey;
+  border-bottom: 2px solid var(--textDark);
+  border-left: 2px solid var(--textDark);
 }
 
 .titleCellRight h3,
@@ -87,14 +97,14 @@
   width: 25%;
   text-align: right;
   padding: 0.5% 2% 1% 0;
-  border-right: 2px solid dimgrey;
+  border-right: 2px solid var(--textDark);
 }
 
 .cellRight {
   width: 25%;
   text-align: left;
   padding: 0.5% 0 1% 2%;
-  border-left: 2px solid dimgrey;
+  border-left: 2px solid var(--textDark);
 }
 
 .timeCellLeft {
@@ -102,9 +112,9 @@
   width: 15%;
   padding-left: 1%;
   text-align: left;
-  color: lightseagreen;
-  border-bottom: 2px solid dimgrey;
-  border-right: 2px solid dimgrey;
+  color: var(--emphasis2);
+  border-bottom: 2px solid var(--textDark);
+  border-right: 2px solid var(--textDark);
 }
 
 .timeCellRight {
@@ -112,9 +122,9 @@
   width: 15%;
   padding-right: 1%;
   text-align: right;
-  color: lightseagreen;
-  border-bottom: 2px solid dimgrey;
-  border-left: 2px solid dimgrey;
+  color: var(--emphasis2);
+  border-bottom: 2px solid var(--textDark);
+  border-left: 2px solid var(--textDark);
 }
 
 .noBorderCellRight {
@@ -138,33 +148,33 @@
 }
 
 .skillTag {
-  color: gainsboro;
+  color: var(--textColor);
   font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
   padding: 1% 1.5%;
   border-radius: 20px;
-  background-color: #561823;
+  background-color: var(--emphasis1Dark);
 }
 
 .groupTag {
-  color: gainsboro;
+  color: var(--textColor);
   font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
   padding: 1% 1.5%;
   border-radius: 20px;
-  background-color: darkslategrey;
+  background-color: var(--emphasis2Dark);
 }
 
 .teamTag {
-  color: gainsboro;
+  color: var(--textColor);
   font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
   padding: 1% 1.5%;
   border-radius: 20px;
-  background-color: dimgrey;
+  background-color: var(--textDark);
 }
 
 /* Small-ish size screen */
@@ -179,24 +189,27 @@
 
 /* Small or vertical screen */
 @media (max-width: 600px) or (orientation: portrait) {
+  .icon {
+    margin-left: 2%;
+  }
+
+  .teamTag,
+  .groupTag,
+  .skillTag {
+    padding: 2%;
+  }
+
   .timeline {
     width: 100%;
     padding: 10% 0;
   }
 
-  .icon {
-    margin-left: 2%;
-  }
-
   .timeCellLeft,
   .timeCellRight,
+  .titleCellLeft,
+  .titleCellRight
   .titleCellLeft h3,
   .titleCellRight h3 {
-    font-size: 20px;
-  }
-
-  .titleCellLeft,
-  .titleCellRight {
     font-size: 18px;
   }
 

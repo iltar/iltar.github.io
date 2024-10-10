@@ -1,3 +1,11 @@
+:root {
+  --textBackground: rgba(48, 48, 48, 0.9);
+  --naviBackground: #303030;
+  --emphasis1Dark:#561823;
+  --emphasis2Dark: darkslategrey;
+  --shadowColor: #202020;
+}
+
 body {
   background-color: #474747;
   background-image: url("bgrPic.jpg");
@@ -8,12 +16,12 @@ body {
 }
 
 header {
-  background-color: #561823;
+  background-color: var(--emphasis1Dark);
   width: 80%;
   margin: auto;
   display: flex;
   flex-flow: row wrap;
-  box-shadow: 1px 1px 2px #202020;
+  box-shadow: 1px 1px 2px var(--shadowColor);
   position: relative;
   justify-content: center;
   align-items: center;
@@ -28,8 +36,8 @@ footer {
   width: 100%;
   position: absolute;
   margin: auto 0 0 0;
-  background-color: #303030;
-  box-shadow: 0 -1px 2px #202020;
+  background-color: var(--naviBackground);
+  box-shadow: 0 -1px 2px var(--shadowColor);
 }
 
 /* Navigation */
@@ -40,10 +48,10 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #303030;
+  background-color: var(--naviBackground);
   width: 100%;
   margin: 0;
-  box-shadow: 0 1px 2px #202020;
+  box-shadow: 0 1px 2px var(--shadowColor);
 }
 
 .naviLinks {
@@ -69,13 +77,13 @@ nav {
 .frontPageHeader {
   width: 40%;
   margin-right: auto;
-  background-color: #561823;
+  background-color: var(--emphasis1Dark);
 }
 
 .description {
   width: 60%;
   margin-left: auto;
-  background-color: darkslategrey;
+  background-color: var(--emphasis2Dark);
 }
 
 .description div {
@@ -84,51 +92,50 @@ nav {
 
 /* Paragraph areas */
 .textAreaLeft {
-  background-color: rgba(48, 48, 48, 0.7);
+  background-color: var(--textBackground);
   width: 40%;
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 10%;
-  box-shadow: 1px 1px 5px #202020;
+  box-shadow: 1px 1px 5px var(--shadowColor);
 }
 
 .textAreaRight {
-  background-color: rgba(48, 48, 48, 0.7);
+  background-color: var(--textBackground);
   width: 40%;
   margin-left: auto;
   margin-top: 5%;
   margin-bottom: 10%;
-  box-shadow: 1px 1px 5px #202020;
+  box-shadow: 1px 1px 5px var(--shadowColor);
 }
 
 .textArea {
-  background-color: rgba(48, 48, 48, 0.7);
+  background-color: var(--textBackground);
   padding: 3% 0 3% 0%;
-  box-shadow: 1px 1px 5px #202020;
+  box-shadow: 1px 1px 5px var(--shadowColor);
   margin: 0;
 }
 
 .project {
-  background-color: rgba(48, 48, 48, 0.7);
+  background-color: var(--textBackground);
   margin: 0 0 5% 0;
-  box-shadow: 1px 1px 5px #202020;
+  box-shadow: 1px 1px 5px var(--shadowColor);
 }
 
 /* Header boxes */
 .header1Area {
-  background-color: #561823;
   padding: 5% 0 2% 0;
-  box-shadow: 1px 1px 5px #202020;
+  box-shadow: 1px 1px 5px var(--shadowColor);
 }
 
 .header2Area {
-  background-color: #303030;
-  box-shadow: 1px 1px 5px #202020;
+  background-color: var(--naviBackground);
+  box-shadow: 1px 1px 5px var(--shadowColor);
   margin: 0;
 }
 
 .header3Area {
-  background-color: darkslategrey;
+  background-color: var(--emphasis2Dark);
 }
 
 /* Large screen */
@@ -168,7 +175,7 @@ nav {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgba(48, 48, 48, 0.9);
+    background-color: var(--textBackground);
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 300ms;
