@@ -56,11 +56,12 @@ nav {
 
 .naviLinks {
   margin-right: auto;
-  padding-left: 10%;
+  padding: 2% 0 2% 10%;
   width: 85%;
 }
 
 .languagePicker {
+  display: none;
   margin-left: auto;
   padding-right: 10%;
   width: 15%;
