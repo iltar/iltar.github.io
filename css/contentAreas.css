@@ -1,5 +1,5 @@
 :root {
-  --textBackground: rgba(48, 48, 48, 0.9);
+  --textBackground: rgba(48, 48, 48, 0.85);
   --naviBackground: #303030;
   --emphasis1Dark:#561823;
   --emphasis2Dark: darkslategrey;
@@ -61,7 +61,6 @@ nav {
 }
 
 .languagePicker {
-  display: none;
   margin-left: auto;
   padding-right: 10%;
   width: 15%;
@@ -148,7 +147,6 @@ nav {
 
   .languagePicker {
     padding-right: 20%;
-    display: none;
   }
 
   .naviLinks {
