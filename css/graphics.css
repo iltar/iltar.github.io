@@ -8,6 +8,7 @@
   --emphasis1Dark: #561823;
   --emphasis2: lightseagreen;
   --emphasis2Dark: darkslategrey;
+  --tlBorder: 2px solid var(--textDark);
 }
 
 /* Mobile navigation elements */
@@ -63,23 +64,21 @@
 }
 
 .tlRight {
-  height: 10%;
   width: 50%;
   margin-left: auto;
   padding: 1% 0;
   text-align: left;
-  border-left: 2px solid var(--textDark);
-  border-bottom: 2px solid var(--textDark);
+  border-left: var(--tlBorder);
+  border-bottom: var(--tlBorder);
 }
 
 .tlLeft {
-  height: 10%;
   width: 50%;
   margin-right: auto;
   padding: 1% 0;
   text-align: right;
-  border-right: 2px solid var(--textDark);
-  border-bottom: 2px solid var(--textDark);
+  border-right: var(--tlBorder);
+  border-bottom: var(--tlBorder);
   box-sizing: border-box;
 }
 
@@ -97,7 +96,7 @@
   width: 50%;
   height: 50px;
   margin: 0 auto 0 0;
-  border-right: 2px solid var(--textDark);
+  border-right: var(--tlBorder);
   box-sizing: border-box;
 }
 
