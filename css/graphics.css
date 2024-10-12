@@ -54,8 +54,8 @@
 
 /* Resumé elements */
 .timeline {
-  width: 50%;
-  margin: 2% auto 2% auto;
+  width: 60%;
+  margin: 1% auto 1% auto;
 }
 
 #eduHistory {
@@ -64,38 +64,35 @@
 
 .tlRight {
   height: 10%;
-  width: 46%;
+  width: 50%;
   margin-left: auto;
-  padding: 0 2%;
+  padding: 1% 0;
   text-align: left;
   border-left: 2px solid var(--textDark);
   border-bottom: 2px solid var(--textDark);
-  border-top: 1px dashed rgba(0, 0, 0, 0);
 }
 
 .tlLeft {
   height: 10%;
   width: 50%;
   margin-right: auto;
-  padding: 0 2%;
+  padding: 1% 0;
   text-align: right;
   border-right: 2px solid var(--textDark);
   border-bottom: 2px solid var(--textDark);
-  border-top: 2px dashed rgba(0, 0, 0, 0);
   box-sizing: border-box;
 }
 
 .timeline h3,
 .timeline p {
-  padding: 0;
+  padding: 0 2%;
   line-height: 1.25;
 }
 
 .line {
   width: 50%;
   height: 50px;
-  margin-right: auto;
-  border: 2px dashed rgba(0, 0, 0, 0);
+  margin: 0 auto 0 0;
   border-right: 2px solid var(--textDark);
   box-sizing: border-box;
 }
