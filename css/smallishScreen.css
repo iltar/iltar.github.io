@@ -35,6 +35,11 @@ article {
   margin-left: auto;
 }
 
+.skills {
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
 .textAreaLeft,
 .textAreaRight {
   width: 100%;

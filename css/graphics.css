@@ -6,6 +6,7 @@
   --emphasis1Dark: #561823;
   --emphasis2: lightseagreen;
   --emphasis2Dark: darkslategrey;
+  --emphasis3: #505050;
   --tlBorder: 2px solid var(--textDark);
 }
 
@@ -105,5 +106,5 @@ figcaption {
   width: fit-content;
   margin: 5px;
   border-radius: 20px;
-  background-color: #505050;
+  background-color: var(--emphasis3);
 }
