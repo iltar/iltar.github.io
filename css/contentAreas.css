@@ -6,6 +6,10 @@
   --shadowColor: #202020;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #474747;
   background-image: url("bgrPic.jpg");
@@ -13,12 +17,13 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  min-height: 100%;
 }
 
 header {
   background-color: var(--emphasis1Dark);
   width: 80%;
-  margin: auto;
+  margin: 70px auto 0 auto;
   display: flex;
   flex-flow: row wrap;
   box-shadow: 1px 1px 2px var(--shadowColor);
@@ -34,15 +39,15 @@ article {
 
 footer {
   width: 100%;
+  height: 70px;
   position: absolute;
-  margin: auto 0 0 0;
   background-color: var(--naviBackground);
   box-shadow: 0 -1px 2px var(--shadowColor);
 }
 
 /* Navigation */
 nav {
-  position: sticky;
+  position: fixed;
   z-index: 1000;
   top: 0;
   display: flex;
@@ -50,6 +55,7 @@ nav {
   align-items: center;
   background-color: var(--naviBackground);
   width: 100%;
+  height: 70px;
   margin: 0;
   box-shadow: 0 1px 2px var(--shadowColor);
 }
