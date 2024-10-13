@@ -102,6 +102,21 @@ td {
   padding: 1%;
 }
 
+ul, li {
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--textColor);
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 1px 1.5%;
+}
+
+.tags {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
 nav p {
   font-family: "Space Grotesk", Tahoma, sans-serif;
   font-size: 24px;

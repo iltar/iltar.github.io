@@ -19,7 +19,7 @@
   <body>
     <nav id="mainNavigation">
       <input type="checkbox" class="navToggle" id="toggle">
-      <label for="toggle" class="icon">
+      <label for="toggle" class="icon" aria-label="navigaatio">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -31,7 +31,6 @@
         <a href="contact.html">Ota yhteyttä</a>
       </div>
       <div class="languagePicker">
-        <p><a>FI</a> / <a>EN</a></p>
       </div>
     </nav>
 
@@ -53,29 +52,32 @@
           digitaalisiin palveluihin</i> -kurssia.
         </p>
         <p>
-          Sivustolta löytyy <b>Kuka olen?</b> - etusivu, joka esittelee minut sekä taitoni graafisesti
-          esitettyinä, <b>Mistä tulen?</b> - urapolkusivu, josta löytyy työ- ja koulutushistoriani sekä
-          muu kokemus, <b>Mitä teen?</b> - projektisivu, jossa esittelen aikaisempia projektejani sekä 
-          <b>Ota yhteyttä</b> - sivu, jolta löytyvät yhteystietoni.
+          Sivustolta löytyy <b>Kuka olen?</b> etusivu, joka esittelee minut sekä taitoni graafisesti
+          esitettyinä, <b>Mistä tulen?</b> urapolkusivu, josta löytyy työ- ja koulutushistoriani sekä
+          muu kokemus, <b>Mitä teen?</b> projektisivu, jossa esittelen aikaisempia projektejani sekä 
+          <b>Ota yhteyttä</b> sivu, jolta löytyvät yhteystietoni.
         </p>
         <p>
-          Toteutukseen on käytetty HTML- ja CSS-kieliä, ja projekti on tallennettu GitHubiin.
-          Nettisivun käyttöliittymä on tehty responsiiviseksi ja skaalautuu käytetyn laitteen
-          näytön koon mukaan.
+          Sivuston toteutukseen on käytetty HTML- ja CSS-kieliä, ja se on toetutettu responsiivisesti
+          skaalautumaan käytetyn laitteen ruudun koon mukaan.
         </p>
-        <p>
-          <a href="https://github.com/iltar/iltar.github.io/" target="_blank"
-            >Lähdekoodi</a
-          >
-          <a href="https://iltar.github.io/" target="_blank">Näytä projektisivu</a>
-        </p>
-        <ul class="tags">
-          <li class="skillTag">HTML</li>
-          <li class="skillTag">CSS</li>
-          <li class="groupTag">itsenäinen projekti</li>
-          <li class="teamTag">opintoprojekti</li>
+        <ul>
+          <li><a href="https://github.com/iltar/iltar.github.io/" target="_blank">
+            Lähdekoodi</a></li>
+          <li><a href="https://iltar.github.io/" target="_blank">Näytä projektisivu</a></li>
         </ul>
+        <figure>
+          <figcaption>tägit</figcaption>
+          <ul class="tags">
+            <li class="skillTag">HTML</li>
+            <li class="skillTag">CSS</li>
+            <li class="groupTag">itsenäinen projekti</li>
+            <li class="teamTag">opintoprojekti</li>
+          </ul>
+        </figure>
       </section>
+
+      <!-- Excel file seems to be misplaced, will make this visible once found
       <section class="project">
         <div class="header3Area">
           <h3>Palkkalaskuri</h3>
@@ -101,6 +103,7 @@
           <li class="teamTag">vapaa-ajan projekti</li>
         </ul>
       </section>
+    -->
     </article>
 
     <footer>
