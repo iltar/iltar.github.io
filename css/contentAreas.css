@@ -12,7 +12,7 @@ html, body {
 
 body {
   background-color: #474747;
-  background-image: url("bgrPic.jpg");
+  background-image: url("bgrPic.avif");
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -194,40 +194,5 @@ nav {
   .textAreaRight {
     width: 100%;
     margin: 25% 0;
-  }
-}
-
-/* Small or vertical screen */
-
-@media (max-width: 600px) or (orientation: portrait) {
-  header,
-  .frontPageHeader,
-  .description,
-  .textArea,
-  .project,
-  .profilePic {
-    visibility: visible;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    position: static;
-  }
-
-  article {
-    width: 100%;
-    margin: 5% auto 20% auto;
-  }
-
-  .skills {
-    margin-top: 30%;
-    margin-bottom: 30%;
-  }
-
-  .description div {
-    padding: 10% 15% 10% 15%;
-  }
-
-  .languagePicker {
-    padding-right: 2%;
   }
 }

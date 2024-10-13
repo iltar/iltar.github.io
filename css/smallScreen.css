@@ -1,0 +1,50 @@
+@media (max-width: 600px) or (orientation: portrait) {
+  header,
+  .frontPageHeader,
+  .description,
+  .textArea,
+  .project,
+  .profilePic {
+    visibility: visible;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: static;
+  }
+
+  article {
+    width: 100%;
+    margin: 5% auto 20% auto;
+  }
+
+  .skills {
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+
+  .description div {
+    padding: 10% 15% 10% 15%;
+  }
+
+  .languagePicker {
+    padding-right: 2%;
+  }
+
+  .frontPageHeader h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .project p {
+    line-height: 1.5;
+  }
+}
