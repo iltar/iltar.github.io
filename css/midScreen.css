@@ -1,0 +1,66 @@
+:root {
+  --textDark: darkgrey;
+  --tlBorder: 2px solid var(--textDark);
+}
+
+.naviLinks {
+  margin-right: auto;
+  padding: 2% 0 2% 10%;
+  width: 85%;
+}
+
+.languagePicker {
+  margin-left: auto;
+  padding-right: 10%;
+  width: 15%;
+  text-align: right;
+}
+
+.icon {
+  display: none;
+}
+
+.timeline {
+  width: 60%;
+}
+
+#eduHistory {
+  width: 80%;
+}
+
+.tlRight {
+  width: 50%;
+  margin-left: auto;
+  padding: 1% 0;
+  border-left: var(--tlBorder);
+  border-bottom: var(--tlBorder);
+}
+
+.tlLeft {
+  width: 50%;
+  margin-right: auto;
+  padding: 1% 0;
+  border-right: var(--tlBorder);
+  border-bottom: var(--tlBorder);
+  box-sizing: border-box;
+}
+
+.timeline p,
+.timeline h3 {
+  padding: 0 2%;
+}
+
+.timeCellLeft,
+.timeCellRight {
+  width: 20%;
+}
+
+td {
+  width: 80%;
+}
+
+.teamTag,
+.groupTag,
+.skillTag {
+  padding: 1% 1.5%;
+}

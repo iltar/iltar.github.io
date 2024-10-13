@@ -2,7 +2,7 @@
 
 :root {
   --textColor: gainsboro;
-  --textDark: grey;
+  --textDark: darkgrey;
   --shadowColor: #202020;
   --emphasis1: firebrick;
   --emphasis1Dark: #561823;
@@ -14,27 +14,6 @@
 /* Mobile navigation elements */
 .navToggle {
   display: none;
-}
-
-.navToggle:checked ~ .naviLinks {
-  transform: scale(1, 1);
-}
-
-.icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-left: 10%;
-  height: 100%;
-  display: none;
-}
-
-.bar {
-  width: 40px;
-  height: 4px;
-  margin: 6px;
-  background-color: var(--emphasis2);
-  border-radius: 5px;
 }
 
 /* Skill level elements */
@@ -55,31 +34,15 @@
 
 /* Resumé elements */
 .timeline {
-  width: 60%;
   margin: 1% auto 1% auto;
 }
 
-#eduHistory {
-  width: 80%;
-}
-
 .tlRight {
-  width: 50%;
-  margin-left: auto;
-  padding: 1% 0;
   text-align: left;
-  border-left: var(--tlBorder);
-  border-bottom: var(--tlBorder);
 }
 
 .tlLeft {
-  width: 50%;
-  margin-right: auto;
-  padding: 1% 0;
   text-align: right;
-  border-right: var(--tlBorder);
-  border-bottom: var(--tlBorder);
-  box-sizing: border-box;
 }
 
 .timeline p {
@@ -104,20 +67,14 @@ table {
   width: 100%;
 }
 
-td {
-  width: 80%;
-}
-
 .timeCellLeft {
   font-size: 32px;
-  width: 20%;
   text-align: right;
   color: var(--emphasis2);
 }
 
 .timeCellRight {
   font-size: 32px;
-  width: 20%;
   text-align: left;
   color: var(--emphasis2);
 }
@@ -135,7 +92,6 @@ td {
   font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
-  padding: 1% 1.5%;
   border-radius: 20px;
   background-color: var(--emphasis1Dark);
 }
@@ -145,7 +101,6 @@ td {
   font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
-  padding: 1% 1.5%;
   border-radius: 20px;
   background-color: var(--emphasis2Dark);
 }
@@ -155,49 +110,6 @@ td {
   font-family: Helvetica, Arial, sans-serif;
   width: fit-content;
   margin: 5px;
-  padding: 1% 1.5%;
   border-radius: 20px;
-  background-color: var(--textDark);
-}
-
-/* Small-ish size screen */
-@media (max-width: 800px) {
-  .icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    margin-left: 2%;
-  }
-
-  .teamTag,
-  .groupTag,
-  .skillTag {
-    padding: 2%;
-  }
-
-  .timeline,
-  #eduHistory,
-  #eduHistory .tlRight,
-  #eduHistory .tlLeft {
-    width: 100%;
-  }
-
-  td {
-    width: 70%;
-  }
-
-  .timeCellLeft,
-  .timeCellRight {
-    width: 30%;
-  }
-
-  .tlLeft,
-  .tlRight {
-    width: 70%;
-    margin: 0 auto;
-    padding: 0;
-    border: none;
-    word-wrap: break-word;
-  }
+  background-color: dimgrey;
 }

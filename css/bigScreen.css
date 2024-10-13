@@ -1,0 +1,24 @@
+header,
+article {
+  width: 60%;
+}
+
+.languagePicker {
+  padding-right: 20%;
+}
+
+.naviLinks {
+  padding-left: 20%;
+}
+
+.profilePic {
+  width: 20%;
+  position: absolute;
+  left: 30%;
+}
+
+.teamTag,
+.groupTag,
+.skillTag {
+  padding: 0.5% 1%;
+}

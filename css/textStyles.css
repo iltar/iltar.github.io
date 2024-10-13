@@ -2,7 +2,7 @@
 
 :root {
   --textColor: gainsboro;
-  --textDark: grey;
+  --textDark: darkgrey;
   --shadowColor: #202020;
   --emphasis1: firebrick;
   --emphasis1Dark: #561823;
@@ -131,14 +131,4 @@ footer p {
 
 .frontPageHeader h1 {
   padding-right: 30%;
-}
-
-@media (max-width: 900px) {
-  .frontPageHeader h1 {
-    padding: 0;
-  }
-
-  .naviLinks a {
-    padding: 5% 0;
-  }
 }

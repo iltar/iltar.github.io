@@ -1,0 +1,33 @@
+header {
+  width: 80%;
+  margin: 70px auto 0 auto;
+}
+
+article {
+  width: 80%;
+  margin: 2% auto 5% auto;
+}
+
+.frontPageHeader {
+  width: 40%;
+  margin-right: auto;
+}
+
+.description {
+  width: 60%;
+  margin-left: auto;
+}
+
+.textAreaLeft {
+  width: 40%;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.textAreaRight {
+  width: 40%;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}

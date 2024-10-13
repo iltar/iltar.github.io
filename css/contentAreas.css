@@ -1,12 +1,13 @@
 :root {
   --textBackground: rgba(48, 48, 48, 0.85);
   --naviBackground: #303030;
-  --emphasis1Dark:#561823;
+  --emphasis1Dark: #561823;
   --emphasis2Dark: darkslategrey;
   --shadowColor: #202020;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -22,19 +23,13 @@ body {
 
 header {
   background-color: var(--emphasis1Dark);
-  width: 80%;
-  margin: 70px auto 0 auto;
+  margin-top: 70px;
   display: flex;
   flex-flow: row wrap;
   box-shadow: 1px 1px 2px var(--shadowColor);
   position: relative;
   justify-content: center;
   align-items: center;
-}
-
-article {
-  width: 80%;
-  margin: 2% auto 5% auto;
 }
 
 footer {
@@ -60,16 +55,9 @@ nav {
   box-shadow: 0 1px 2px var(--shadowColor);
 }
 
-.naviLinks {
-  margin-right: auto;
-  padding: 2% 0 2% 10%;
-  width: 85%;
-}
-
 .languagePicker {
   margin-left: auto;
   padding-right: 10%;
-  width: 15%;
   text-align: right;
 }
 
@@ -81,14 +69,10 @@ nav {
 }
 
 .frontPageHeader {
-  width: 40%;
-  margin-right: auto;
   background-color: var(--emphasis1Dark);
 }
 
 .description {
-  width: 60%;
-  margin-left: auto;
   background-color: var(--emphasis2Dark);
 }
 
@@ -97,21 +81,9 @@ nav {
 }
 
 /* Paragraph areas */
-.textAreaLeft {
-  background-color: var(--textBackground);
-  width: 40%;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  box-shadow: 1px 1px 5px var(--shadowColor);
-}
-
+.textAreaLeft,
 .textAreaRight {
   background-color: var(--textBackground);
-  width: 40%;
-  margin-left: auto;
-  margin-top: 5%;
-  margin-bottom: 10%;
   box-shadow: 1px 1px 5px var(--shadowColor);
 }
 
@@ -142,57 +114,4 @@ nav {
 
 .header3Area {
   background-color: var(--emphasis2Dark);
-}
-
-/* Large screen */
-@media (min-width: 1300px) {
-  header,
-  article {
-    width: 60%;
-  }
-
-  .languagePicker {
-    padding-right: 20%;
-  }
-
-  .naviLinks {
-    padding-left: 20%;
-  }
-
-  .profilePic {
-    width: 20%;
-    position: absolute;
-    left: 30%;
-  }
-}
-
-/* Small-ish size screen */
-@media (max-width: 800px) {
-  .profilePic {
-    visibility: hidden;
-  }
-
-  .naviLinks {
-    position: absolute;
-    text-align: center;
-    top: 100%;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--textBackground);
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 300ms;
-  }
-
-  .languagePicker {
-    width: 50%;
-  }
-
-  .textAreaLeft,
-  .textAreaRight {
-    width: 100%;
-    margin: 25% 0;
-  }
 }
