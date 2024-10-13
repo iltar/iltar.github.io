@@ -1,5 +1,5 @@
 :root {
-  --textDark: darkgrey;
+  --textDark: grey;
   --tlBorder: 2px solid var(--textDark);
 }
 

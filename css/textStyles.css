@@ -2,9 +2,9 @@
 
 :root {
   --textColor: gainsboro;
-  --textDark: darkgrey;
+  --textDark: grey;
   --shadowColor: #202020;
-  --emphasis1: firebrick;
+  --emphasis1: crimson;
   --emphasis1Dark: #561823;
   --emphasis2: lightseagreen;
   --emphasis2Dark: darkslategrey;
