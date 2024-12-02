@@ -1,0 +1,23 @@
+{
+  "java": 2,
+  "javascript": 3,
+  "html": 3,
+  "css": 4,
+  "python": 1,
+
+  "github": 3,
+  "indesign": 1,
+  "excel": 4,
+  "word": 4,
+  "powerpoint": 3,
+
+  "finnish": 5,
+  "english": 4,
+  "swedish": 2,
+
+  "problemSolving": 5,
+  "creativity": 4,
+  "teamSkills": 4,
+  "communication": 3,
+  "customerService": 4
+}

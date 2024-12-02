@@ -1,0 +1,26 @@
+[
+    {
+        "title" : "Koodauskielet",
+        "names" : [
+            "Java", "JavaScript", "HTML", "CSS", "Python"
+        ]
+    },
+    {
+        "title" : "Ohjelmistot",
+        "names" : [
+            "GitHub", "Adobe InDesign", "Excel", "Word", "PowerPoint"
+        ]
+    },
+    {
+        "title" : "Luonnolliset kielet",
+        "names" : [
+            "Suomi", "Englanti", "Ruotsi"
+        ]
+    },
+    {
+        "title" : "Muut taidot",
+        "names" : [
+            "Ongelmanratkaisu", "Luovat taidot", "Yhteistyötaidot", "Viestintätaidot", "Asiakaspalvelu"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "title" : "Programming languages",
+        "names" : [
+            "Java", "JavaScript", "HTML", "CSS", "Python"
+        ]
+    },
+    {
+        "title" : "Software",
+        "names" : [
+            "GitHub", "Adobe InDesign", "Excel", "Word", "PowerPoint"
+        ]
+    },
+    {
+        "title" : "Natural languages",
+        "names" : [
+            "Finnish", "English", "Swedish"
+        ]
+    },
+    {
+        "title" : "Soft skills",
+        "names" : [
+            "Problem solving", "Creativity", "Teamwork skills", "Communicarion", "Customer service"
+        ]
+    }
+]
